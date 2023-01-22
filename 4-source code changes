@@ -1,0 +1,46 @@
+واحدهای گفتار نرم برای بهبود تبدیل صدا
+نسخه ی نمایشی مقاله: مقایسه واحدهای گفتار گسسته و نرم برای بهبود تبدیل صدا
+
+صفحه وب همراه
+ریپو خانگی
+کدکن های محتوای هوبرت
+مدل های صوتی
+وکودر هیفیگان
+
+
+ HUBERTشما باید
+نصب کنید
+
+
+دانلود نرم افزار محتوای HuBERT
+ (یا hubert_soft یا hubert_discrete)
+
+دانلود مدل آکوستیک 
+( hubert_soft , hubert_discrete)
+
+بارگذاری صوتی منبع 
+(و نمونه برداری مجدد به 16 هرتز در صورت لزوم)
+
+
+
+ vocoderدانلود
+ ( hifigan_hubert_soft یا hifigan_hubert_discrete)
+
+
+دانلود ی مثال
+with open("example.wav", "wb") as file:
+  response = requests.get("https://drive.google.com/uc?export=preview&id=1Y3KuPAhB5VcsmIaokBVKu3LUEZOfhSu8")
+  file.write(response.content)
+
+آپلودش کنید
+
+بارگذاری صوتی منبع (و نمونه برداری مجدد به 16 هرتز در صورت لزوم)
+
+
+تبدیل به بلندگوی هدف:
+
+گوش بدید  به نتیجه
+
+
+ گفته تبدیل شده
+display.Audio(target.squeeze().cpu(), rate=16000)
