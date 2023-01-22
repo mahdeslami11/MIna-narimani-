@@ -1,6 +1,12 @@
-The goal of voice conversion is to transform source speech into a target voice, keeping the content unchanged. In this paper, we focus on self-supervised representation learning for voice conversion. Specifically, we compare discrete and soft speech units as input features. We find that discrete representations effectively remove speaker information but discard
-some linguistic content – leading to mispronunciations. As a solution, we propose soft speech units learned by predicting a
-distribution over the discrete units. By modeling uncertainty,soft units capture more content information, improving the
+The goal of voice conversion is to transform source speech
+into a target voice, keeping the content unchanged. In this
+paper, we focus on self-supervised representation learning for
+voice conversion. Specifically, we compare discrete and soft
+speech units as input features. We find that discrete representations effectively remove speaker information but discard
+some linguistic content – leading to mispronunciations. As a
+solution, we propose soft speech units learned by predicting a
+distribution over the discrete units. By modeling uncertainty,
+soft units capture more content information, improving the
 intelligibility and naturalness of converted speech
 
 
