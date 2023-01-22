@@ -1,0 +1,6 @@
+We proposed soft speech units to improve unsupervised voice
+conversion. We showed that soft units are a good middle ground between discrete and continuous features – they accurately represent linguistic content while still discarding speaker
+information. In both objective and subjective evaluations, we
+found that soft units improve intelligibility and naturalness.
+Future work will investigate soft speech units for any-to-any
+voice conversion.
